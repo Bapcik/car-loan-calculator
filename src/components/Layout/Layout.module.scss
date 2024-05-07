@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: 60px auto;
+  grid-template-rows: auto 100px;
+  grid-template-areas: "sidebar main";
+}
+
+.header {
+  grid-area: sidebar;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #22243a;
+  overflow-y: auto;
+  width: 220px;
+}
+
+.main {
+  grid-area: main;
+  margin-left: 190px;
+  margin-top: 20px;
+}
