@@ -1,0 +1,18 @@
+.data_user_input_item {
+  display: flex;
+  width: 400px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+.data_user_input_item_button {
+  font-size: 20px;
+  background: #fff;
+  border-color: #fff;
+  border-style: none;
+  height: 55px;
+}
