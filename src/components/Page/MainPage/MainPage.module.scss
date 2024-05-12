@@ -1,4 +1,7 @@
 .container_main_page {
   padding-left: 190px;
   padding-top: 30px;
+  display: grid;
+  grid-template-rows: 400px 350px;
+  grid-template-columns: 0.6fr 1fr;
 }
